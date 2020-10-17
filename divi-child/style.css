@@ -1,0 +1,36 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+#mc_embed_signup input[type=submit]:not(:disabled) {cursor: pointer;background-color: #000;color: #fff;padding: 8px;border-radius: 20px;}
+#mc_embed_signup input[type=email] {border-color:#efefef;border-radius:20px !important;padding:8px}
+#mc_embed_signup label { display: block;font-size: 16px;padding-bottom: 10px;font-weight: bold;float: left;width: 50% !important;}
+.mc4wp-alert mc4wp-success p {color:#fff;background-color:#000;padding:7px;display:block;margin-top:20px;}
+#field_2_1.hidesignup {display:none !important;}
+
+.login form {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 26px 24px 46px;
+    font-weight: 400;
+    overflow: hidden;
+    background: #dfdfdf;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 3px rgba(0,0,0,.04);
+}
+
+.login form input[type=text]:focus {
+    border-color: #ffda67 !important;
+    box-shadow: 0 0 0 1px #ffda67 !important;
+}
+
+body.login {background:#000;background-image:url('https://daffodeals.com/wp-content/uploads/2020/10/photo-1460235237267-41def675ff13.jpg') !important;}

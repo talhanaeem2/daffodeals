@@ -1,0 +1,36 @@
+form#frmTypeFilter{text-align: right; margin: 0 0 10px;}
+.pagination-wrap{margin:10px 0 0}
+
+.pagination-wrap a { border: none; width: 26px; height: 26px; display: inline-block; text-align: center; font-size: 14px; background: #fff; color:  #0073aa; line-height: 26px;border:1px solid #0073aa; text-decoration:none;}
+.pagination-wrap a.next, .pagination-wrap a.prev{font-size:0px;}
+.pagination-wrap a.prev:after{content:"«"; font-size:14px;}
+.pagination-wrap  a.next:after{content:"»";font-size:14px;}
+.pagination-wrap span.page-numbers.current { border: none; width: 26px; height: 26px; display: inline-block; text-align: center; font-size: 14px; background: #0073aa; color: #fff; line-height: 26px; }
+.lader_hading h2 { font-size: 24px; text-align: center; margin: 10px 0 0; font-weight: 700; }
+h4.commission-date { text-align: center; margin: 12px 0 10px; }
+#frm-pay-seller table.table.table-rasponsive { width: 100%;border-collapse: collapse;margin: 15px 0 0; }
+#frm-pay-seller table.table.table-rasponsive tr td{padding: 11px 0px; width: 210px; font-size: 16px; border-bottom: 1px dashed#ccc; }
+#frm-pay-seller table.table.table-rasponsive tr td:last-child{text-align:right;}
+#frm-pay-seller table.table.table-rasponsive .tfoot tr td:first-child{font-weight: 700;border:none;}
+#frm-pay-seller table.table.table-rasponsive .tfoot tr td:last-child{color: #0071a1; font-weight: 700;border:none;}
+/*#frm-pay-seller table.table.table-rasponsive tr:nth-child(odd){background:#f3f3f3;}*/
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
